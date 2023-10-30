@@ -3189,9 +3189,9 @@ MonoBehaviour:
   m_LookAt: {fileID: 0}
   m_Follow: {fileID: 1716806125}
   m_Lens:
-    FieldOfView: 60.000004
+    FieldOfView: 44
     OrthographicSize: 5
-    NearClipPlane: 0.3
+    NearClipPlane: 0.5
     FarClipPlane: 1000
     Dutch: 0
     ModeOverride: 0
@@ -3215,14 +3215,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2083840704}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.1523772, y: 0.018383456, z: -0.002836131, w: 0.98814744}
-  m_LocalPosition: {x: -0.3546683, y: 3.5124655, z: -78.868866}
+  m_LocalRotation: {x: 0.08471936, y: -0.03014064, z: -0.005725012, w: 0.99593246}
+  m_LocalPosition: {x: 0.6100612, y: 2.184044, z: -79.17828}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 161661913}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 9.695, y: -3.548, z: -0.96}
 --- !u!1 &2102293955
 GameObject:
   m_ObjectHideFlags: 0
@@ -3467,31 +3467,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 447661869377292826, guid: c989722d5465e8f41b6f78bd154633a2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.3546683
+      value: 0.6100612
       objectReference: {fileID: 0}
     - target: {fileID: 447661869377292826, guid: c989722d5465e8f41b6f78bd154633a2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.5124655
+      value: 2.184044
       objectReference: {fileID: 0}
     - target: {fileID: 447661869377292826, guid: c989722d5465e8f41b6f78bd154633a2, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -78.868866
+      value: -79.17828
       objectReference: {fileID: 0}
     - target: {fileID: 447661869377292826, guid: c989722d5465e8f41b6f78bd154633a2, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.98814744
+      value: 0.99593246
       objectReference: {fileID: 0}
     - target: {fileID: 447661869377292826, guid: c989722d5465e8f41b6f78bd154633a2, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.1523772
+      value: 0.08471936
       objectReference: {fileID: 0}
     - target: {fileID: 447661869377292826, guid: c989722d5465e8f41b6f78bd154633a2, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.018383456
+      value: -0.03014064
       objectReference: {fileID: 0}
     - target: {fileID: 447661869377292826, guid: c989722d5465e8f41b6f78bd154633a2, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.002836131
+      value: -0.005725012
       objectReference: {fileID: 0}
     - target: {fileID: 447661869377292826, guid: c989722d5465e8f41b6f78bd154633a2, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -3511,11 +3511,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2458544964096388430, guid: c989722d5465e8f41b6f78bd154633a2, type: 3}
       propertyPath: field of view
-      value: 60.000004
+      value: 44
       objectReference: {fileID: 0}
     - target: {fileID: 2458544964096388430, guid: c989722d5465e8f41b6f78bd154633a2, type: 3}
       propertyPath: far clip plane
       value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 2458544964096388430, guid: c989722d5465e8f41b6f78bd154633a2, type: 3}
+      propertyPath: near clip plane
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 2458544964096388430, guid: c989722d5465e8f41b6f78bd154633a2, type: 3}
       propertyPath: m_BackGroundColor.b
@@ -3528,6 +3532,18 @@ PrefabInstance:
     - target: {fileID: 2458544964096388430, guid: c989722d5465e8f41b6f78bd154633a2, type: 3}
       propertyPath: m_BackGroundColor.r
       value: 0.23584908
+      objectReference: {fileID: 0}
+    - target: {fileID: 2458544964096388430, guid: c989722d5465e8f41b6f78bd154633a2, type: 3}
+      propertyPath: m_NormalizedViewPortRect.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2458544964096388430, guid: c989722d5465e8f41b6f78bd154633a2, type: 3}
+      propertyPath: m_NormalizedViewPortRect.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2458544964096388430, guid: c989722d5465e8f41b6f78bd154633a2, type: 3}
+      propertyPath: m_NormalizedViewPortRect.width
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3725,11 +3741,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6244596182762377112, guid: 91a295f51e4f88d47b23fffa4c473c00, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.1
+      value: 2.3
       objectReference: {fileID: 0}
     - target: {fileID: 6244596182762377112, guid: 91a295f51e4f88d47b23fffa4c473c00, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 11.9
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 6244596182762377112, guid: 91a295f51e4f88d47b23fffa4c473c00, type: 3}
       propertyPath: m_LocalPosition.z
