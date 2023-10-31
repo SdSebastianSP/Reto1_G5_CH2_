@@ -382,7 +382,6 @@
 "Assets/Scripts/QuitManager.cs"
 "Assets/Scripts/SceneID.cs"
 "Assets/Scripts/Score.cs"
-"Assets/Unity.VisualScripting.Generated/VisualScripting.Core/AotStubs.cs"
 -langversion:9.0
 
 /deterministic
