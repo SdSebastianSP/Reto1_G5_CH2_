@@ -8,6 +8,8 @@ TagManager:
   - Coins
   - Coin2
   - Suelo
+  - Ground
+  - Puntos
   layers:
   - Default
   - TransparentFX

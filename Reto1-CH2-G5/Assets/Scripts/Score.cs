@@ -5,7 +5,7 @@ using TMPro;
 
 public class Score : MonoBehaviour
 {
-    private int Puntaje = 0;
+    public int Puntaje = 4;
     public TMP_Text scoreT;
 
 
@@ -15,7 +15,7 @@ public class Score : MonoBehaviour
         {
             Destroy(other.gameObject);
             Puntaje++;
-            scoreT.text = "Score: " + Puntaje;
+            scoreT.text = Puntaje.ToString();
         }
     }
 
