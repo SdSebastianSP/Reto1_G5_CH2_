@@ -374,7 +374,10 @@
 "Assets/Scripts/ChangeSceneaA.cs"
 "Assets/Scripts/cMove.cs"
 "Assets/Scripts/Coroutine.cs"
+"Assets/Scripts/Ganar.cs"
+"Assets/Scripts/GenerarDano.cs"
 "Assets/Scripts/lifeManager.cs"
+"Assets/Scripts/MenuPausa.cs"
 "Assets/Scripts/Move.cs"
 "Assets/Scripts/PanelManager.cs"
 "Assets/Scripts/PanelSelect.cs"
@@ -382,6 +385,8 @@
 "Assets/Scripts/QuitManager.cs"
 "Assets/Scripts/SceneID.cs"
 "Assets/Scripts/Score.cs"
+"Assets/Scripts/Sound.cs"
+"Assets/Scripts/Vida.cs"
 -langversion:9.0
 
 /deterministic
