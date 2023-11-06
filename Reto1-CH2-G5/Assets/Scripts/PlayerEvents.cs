@@ -25,8 +25,8 @@ public class PlayerEvents : MonoBehaviour
 
     private int score = 0;
     private int scoreToWin = 15;
-    public string gameOverText = "Game Over";
-    public string gameWinnerText = "Youn have Win!";
+    public string gameOverText = "No lo lograste";
+    public string gameWinnerText = "Muy bien, lo conseguiste";
 
     private void Start()
     {
@@ -103,12 +103,12 @@ public class PlayerEvents : MonoBehaviour
         //Teleports
         if (collision.gameObject.CompareTag("LeftCollision"))
         {
-            transform.position = new Vector2(10f, 0);
+            transform.position = new Vector2(11f, 0);
             teleport.Play();
         }
         if (collision.gameObject.CompareTag("RightCollision"))
         {
-            transform.position = new Vector2(-10f, 0);
+            transform.position = new Vector2(-11f, 0);
             teleport.Play();
         }
     }

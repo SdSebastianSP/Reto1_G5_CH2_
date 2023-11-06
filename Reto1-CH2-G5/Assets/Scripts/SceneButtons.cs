@@ -18,16 +18,16 @@ public class SceneButtons : MonoBehaviour, IPointerEnterHandler, IPointerExitHan
 
     public void buttonStartAnimation()
     {
-        transform.LeanScale(Vector2.one, 1f).setEaseInOutBack();
+        transform.LeanScale(Vector2.one, 0.2f).setEaseInOutBack();
     }
 
     public void Scene1()
     {
-        SceneManager.LoadScene("Reto_1");
+        SceneManager.LoadScene("Level_01");
     }
     public void TryAgain()
     {
-        SceneManager.LoadScene("Reto_1");
+        SceneManager.LoadScene("Level_01");
     }
 
     public void ExitGame()
